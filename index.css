@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* IMAGEMS */
+img {
+	max-width: 100%;
+	height: auto;
+}
+.RecipeList img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Screen 639 or less */
+/* @media only screen and (max-width: 639px){ */
+.header{
+	font-family: "calibri light",serif;
+	font-size: 30px;
+}
+.navbar li{
+	padding-left: 2px; padding-right: 2px;
+}
+.wrap{
+	padding-top: 8px; padding-bottom: 8px;
+	font-size: 12px;
+}
+.wrap p{
+	padding-left: 1px; padding-right: 1px;
+	font-size: 12px;
+}
+.wrap ul{
+	padding-left: 1px; padding-right: 1px;
+}
+.Menu{
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+.RecipeList {
+	column-gap: 8px;
+}
+.footer{
+	height: 60px;
+}
+
+/* Screen 640 or more */
+@media only screen and (min-width: 640px){
+	.header{
+		font-family: "Microsoft Yi Baiti", "Calibri Light", "Microsoft Himalaya", Serif;
+		font-size: 80px;
+	}
+	.navbar {
+		font-size: 22px;
+	}
+	.navbar li{
+		padding-left: 5px; padding-right: 5px;
+	}
+	.wrap{
+		padding-top: 18px; padding-bottom: 18px;
+		font-size: 20px;
+	}
+	.wrap p{
+		padding-left: 5px; padding-right: 5px;
+		font-size: 20px;
+	}
+	.wrap ul{
+		padding-left: 5px; padding-right: 5px;
+	}
+	.Menu{
+		padding-bottom: 10px;
+		font-size: 20px;
+	}
+	.RecipeList {
+		column-gap: 50px;
+	}
+	.footer{
+		height: 150px;
+	}
+}
+
+/* Screen 1024 or more */
+@media only screen and (min-width: 1024px){
+	.header{
+		font-family: "Microsoft Yi Baiti", "Calibri Light", "Microsoft Himalaya", Serif;
+		font-size: 80px;
+		max-width: 60%;
+	}
+	.navbar {
+		font-size: 22px;
+		max-width: 60%;
+	}
+	.navbar li{
+		padding-left: 20px; padding-right: 20px;
+	}
+	.wrap{
+		width: 60%;
+		padding-top: 30px; padding-bottom: 30px;
+		font-size: 20px;
+	}
+	.wrap p{
+		padding-left: 70px; padding-right: 70px;
+		font-size: 20px;
+	}
+	.wrap ul{
+		padding-left: 86px; padding-right: 86px;
+	}
+	.Menu{
+		width: 60%;
+		padding-bottom: 30px;
+		font-size: 20px;
+	}
+	.footer{
+		height: 300px;
+	}
+}
+/* HEADER */
+.body {
+	background-color: #F5F5F5;
+	
+}
+.header {
+	text-align: center;
+	margin: auto;
+	color: #171717;
+}
+
+/* NAVEGATION BAR */
+.navbar{
+	border-bottom: thin solid #262626; border-top: thin solid #262626;
+	margin: auto;
+	text-align: center;
+	font-family:"Calibri Light", Serif;
+}
+.navbar ul{
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navbar li{
+	display: inline;
+}
+a:link{
+	text-decoration: none;
+	color: #171717;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #171717;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+	color:#F5F5F5;
+}
+.active {
+	color: #F5F5F5;
+}
+
+
+/* CONTENT */
+.wrap{
+	margin: auto;
+	text-align: center;
+	font-family: Calibri, Serif;
+}
+.wrap p{
+	text-align: left;
+	color: #171717;
+}
+.wrap ul{
+	text-decoration: none;
+	list-style-type: circle;
+	margin: 0;
+	overflow: hidden;
+	text-align: left;
+}
+.Method ul{
+	text-decoration: none;
+	list-style-type:decimal;
+}
+.Menu{
+	text-align: center;
+	margin: auto;
+	color: #171717;
+}
+.RecipeList {
+	margin: auto;
+	max-width: 800px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.RecipeList a {
+	text-align: center;
+}
+
+/* FOOTER */
+.footer{
+	margin:auto;
+	background-color:#CBCBCB;
+}
+
+/* Form */
+form.contactme {
+    display: table;
+	margin: 0 auto 0 auto;
+}
+
+div.contactme-section {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+	vertical-align: top;
+}
